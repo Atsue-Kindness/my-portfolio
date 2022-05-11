@@ -69,7 +69,7 @@
     border: none; }
   @media (max-width: 768px) {
     .header__image__box {
-      width: 28rem; } }
+      width: 19rem; } }
   .header__image__box__img {
     margin-top: 9rem; }
     @media (max-width: 768px) {
@@ -136,10 +136,6 @@ body {
       height: 20rem;
       transition: all 0.3s;
       border: 1px solid #f0f0f0; }
-      @media (max-width: 768px) {
-        .projects__boxes__1 {
-          width: 10rem;
-          height: 10rem; } }
     .projects__boxes__1:hover {
       transform: translateY(-2rem);
       box-shadow: 0px 27px 35px rgba(26, 84, 171, 0.163); }
