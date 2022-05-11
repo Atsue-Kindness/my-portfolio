@@ -26,19 +26,27 @@ const Projects = () => {
           </a>
         </div>
 
-        <div className="projects__boxes">
-          <a href="https://celadon-melba-c1bbac.netlify.app/" target={"_blank"}>
-            <div className="projects__boxes__1 projects__boxes__four"></div>
-          </a>
-          <a
-            href="https://elated-hoover-21b002.netlify.app/index.html"
-            target={"_blank"}
-          >
-            <div className="projects__boxes__1 projects__boxes__five"></div>
-          </a>
-          <a href="https://calm-youtiao-b357d9.netlify.app/" target={"_blank"}>
-            <div className="projects__boxes__1 projects__boxes__six"></div>
-          </a>
+        <div className="u__margin__top">
+          <div className="projects__boxes">
+            <a
+              href="https://celadon-melba-c1bbac.netlify.app/"
+              target={"_blank"}
+            >
+              <div className="projects__boxes__1 projects__boxes__four"></div>
+            </a>
+            <a
+              href="https://elated-hoover-21b002.netlify.app/index.html"
+              target={"_blank"}
+            >
+              <div className="projects__boxes__1 projects__boxes__five"></div>
+            </a>
+            <a
+              href="https://calm-youtiao-b357d9.netlify.app/"
+              target={"_blank"}
+            >
+              <div className="projects__boxes__1 projects__boxes__six"></div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

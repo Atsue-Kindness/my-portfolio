@@ -32,7 +32,7 @@
     .header__texts {
       margin-left: 3rem; } }
   .header__texts h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #1a54ab;
@@ -87,6 +87,12 @@ body {
   box-sizing: border-box;
   font-family: poppins, sans-serif; }
 
+.u__margin__top {
+  margin-top: 4rem; }
+  @media (max-width: 768px) {
+    .u__margin__top {
+      margin-top: 1.5rem; } }
+
 .projects {
   margin-top: 15rem;
   text-align: center; }
@@ -118,42 +124,22 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     width: 70%;
     margin: 0 auto; }
     @media (max-width: 768px) {
       .projects__boxes {
         width: 90%;
         gap: 4rem; } }
-    .projects__boxes__paragraph {
-      position: relative; }
-      .projects__boxes__paragraph p {
-        font-size: 3rem;
-        font-weight: 700;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 100;
-        display: none; }
-        .projects__boxes__paragraph p span {
-          font-weight: 400;
-          font-size: 1.8rem;
-          display: inline-block; }
-    .projects__boxes__paragraph:hover {
-      display: block; }
     .projects__boxes__1 {
       width: 20rem;
       height: 20rem;
       background-color: #c1c1c1;
       transition: all 0.3s;
       border: 1px solid #f0f0f0; }
-      @media (max-width: 768px) {
-        .projects__boxes__1 {
-          width: 25rem;
-          height: 25rem; } }
     .projects__boxes__1:hover {
-      transform: translateY(-2rem); }
+      transform: translateY(-2rem);
+      box-shadow: 0px 27px 35px rgba(26, 84, 171, 0.163); }
     .projects__boxes__one {
       background-image: url(./images/detour.png);
       background-size: cover;
