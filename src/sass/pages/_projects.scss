@@ -1,0 +1,131 @@
+.projects {
+  margin-top: 15rem;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    margin-top: 7rem;
+  }
+
+  &__texts {
+    margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+      margin-bottom: 2;
+    }
+
+    h3 {
+      font-size: 3rem;
+      color: $color-grey-secondary-1;
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
+    }
+    p {
+      font-size: 2rem;
+      color: $color-grey-secondary-1;
+      font-weight: 600;
+
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__boxes {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 70%;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+      width: 90%;
+      gap: 4rem;
+    }
+
+    &__paragraph {
+      position: relative;
+      p {
+        font-size: 3rem;
+        font-weight: 700;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        display: none;
+
+        span {
+          font-weight: 400;
+          font-size: 1.8rem;
+          display: inline-block;
+        }
+      }
+    }
+
+    &__paragraph:hover {
+      display: block;
+    }
+    // a {
+    //   text-decoration: none;
+    //   color: $color-grey-primary;
+    //   font-size: 1.8rem;
+    // }
+
+    &__1 {
+      width: 20rem;
+      height: 20rem;
+      background-color: $color-grey-secondary;
+      transition: all 0.3s;
+      border: 1px solid rgb(240, 240, 240);
+
+      @media (max-width: 768px) {
+        width: 25rem;
+        height: 25rem;
+      }
+    }
+    &__1:hover {
+      transform: translateY(-2rem);
+    }
+
+    &__one {
+      background-image: url(./images/detour.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &__two {
+      background-image: url(./images/Globalchef.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &__three {
+      background-image: url(./images/tradexpress.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &__four {
+      background-image: url(./images/omnifood.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &__five {
+      background-image: url(./images/nasims.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &__six {
+      background-image: url(./images/countdown.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
