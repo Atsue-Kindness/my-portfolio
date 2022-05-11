@@ -66,6 +66,12 @@
       transform: translateY(-2rem);
       box-shadow: 0px 27px 35px rgba($color-blue-primary, 0.163);
     }
+    @media (max-width: 768px) {
+      &__1:hover {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+    }
 
     &__one {
       background-image: url(./images/detour.png);

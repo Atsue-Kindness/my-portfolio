@@ -139,6 +139,10 @@ body {
     .projects__boxes__1:hover {
       transform: translateY(-2rem);
       box-shadow: 0px 27px 35px rgba(26, 84, 171, 0.163); }
+    @media (max-width: 768px) {
+      .projects__boxes__1:hover {
+        transform: translateY(0);
+        box-shadow: none; } }
     .projects__boxes__one {
       background-image: url(./images/detour.png);
       background-size: cover;
