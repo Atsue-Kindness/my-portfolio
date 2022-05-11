@@ -59,9 +59,13 @@
     &__1 {
       width: 20rem;
       height: 20rem;
-      background-color: $color-grey-secondary;
       transition: all 0.3s;
       border: 1px solid rgb(240, 240, 240);
+
+      @media (max-width: 768px) {
+        width: 10rem;
+        height: 10rem;
+      }
     }
     &__1:hover {
       transform: translateY(-2rem);
